@@ -1,0 +1,32 @@
+.basket {
+}
+/* .basket._open {
+   top: 50%;
+   left: 50%;
+
+} */
+.basket-container {
+   position: relative;
+   position: fixed;
+   top: 20px;
+   right: 0;
+   width: 35%;
+   height: 50vh;
+   z-index: 999;
+   background-color: rgb(185, 162, 162);
+   overflow-y: scroll;
+}
+.basket-container img {
+   width: 50px;
+   height: 50px;
+}
+table {
+   margin: 0 auto;
+}
+.basket-container__close {
+   position: absolute;
+   right: 20px;
+   top: 10px;
+   cursor: pointer;
+   font-size: 30px;
+}

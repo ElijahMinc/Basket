@@ -1,0 +1,14 @@
+.header-container {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 10px;
+   display: flex;
+   justify-content: flex-end;
+}
+.header-container__basket {
+   cursor: pointer;
+   padding: 10px;
+   background-color: burlywood;
+}
